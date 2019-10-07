@@ -1,5 +1,6 @@
 <script>
-	export let name;
+	import  Form from './Form.svelte';
+	export let name = "PostalPanda";
 </script>
 
 <style>
@@ -8,4 +9,5 @@
 	}
 </style>
 
-<h1>Hello {name}!</h1>
+<h1>Welcome to  {name}!</h1>
+<Form/>
